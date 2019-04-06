@@ -16,11 +16,6 @@ body {
     font-weight: normal;
 }
 
-h2, h3, p, div, nav {
-    margin: 0;
-    padding: 0;
-}
-
 header .logo {
     display: flex;
     justify-content: center;
@@ -34,19 +29,21 @@ header .nav .nav-container {
 }
 
 header .menu {
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 15px;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 header .menu li {
     display: inline;
     list-style-type: none;
     max-height: 62px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 header .menu li a {
@@ -78,8 +75,11 @@ header .menu li a:hover {
     flex-wrap: wrap;
 }
 
-section h1 {
-    padding-top: 40px;
+section > h1 {
+    color: #ffffff;
+    background: #1b1b1b;
+    margin-top: 40px;
+    padding: 20px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -90,7 +90,7 @@ section h1 {
     padding-right: 2%;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: -45px;
 }
 
@@ -105,7 +105,7 @@ section h1 {
     margin-bottom: -31px;
     padding: 20px 0;
     text-align: center;
-    background: #1b1b1b;
+    background-color: #1b1b1b;
 }
 
 .block_text p {
@@ -119,17 +119,87 @@ section h1 {
     padding-top: 25px;
 }
 
+#about-us .row {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section > h2 {
+    text-align: center;
+}
+
+.photo-of-us img {
+    display: block;
+    width: 100%;
+}
+
+.text-about-us {
+    width: 50%;
+}
+
+.text-about-us p {
+    padding-bottom: 15px;
+}
 
 
 
 
+/*our-experience*/
+#our-experience .skills {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+section p {
+    text-align: center;
+}
 
+/*.skills .skill {*/
+/*    width: 25%;*/
+/*}*/
 
+.experience .skills span {
+    background-color: #1b1b1b;
+    display: block;
+    border: 1px solid #0A1525;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 0px auto 25px;
+}
 
+.skills .skill {
+    max-width: 25%;
+}
 
+.skills span i {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 0;
+    position: relative;
+    top: 20px;
+    z-index: 20;
+    display: block;
+    text-align: center;
+}
 
+.skills h3 {
+    text-align: center;
+}
 
+.skills p {
+    text-align: center;
+    padding: 5%;
+}
+
+#experience {
+    padding-bottom: 40px;
+}
 
 
 
