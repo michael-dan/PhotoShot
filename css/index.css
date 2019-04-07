@@ -201,7 +201,18 @@ section p {
     padding-bottom: 40px;
 }
 
+.login-form, .memory-box {
+    margin-bottom: 40px;
+}
 
+footer h1 {
+    color: #ffffff;
+    background: #1b1b1b;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
