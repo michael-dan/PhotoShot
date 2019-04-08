@@ -55,6 +55,7 @@ header .menu li a:hover {
 }
 
 .carusel {
+    max-width: 1200px;
     background-image: url(../img/carusel/carusel.png);
     min-height: 500px;
     background-size: cover;
