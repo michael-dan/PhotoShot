@@ -57,7 +57,7 @@ header .menu li a:hover {
 nav.navbar {
     color: #ffffff!important;
     background-color: #1b1b1b!important;
-    border-bottom: 2px solid #eee;
+        /*border-bottom: 1px solid #dd3333;;*/
     text-transform: uppercase;
     text-align: center;
 }
@@ -83,11 +83,17 @@ div#navbarNav.navbar-collapse.collapse {
 /*CAROUSEL*/
 .carousel {
     max-width: 1200px;
+    padding-top: 5px;
 }
 
 .carousel img {
     display: block;
     width: 100%;
+    transition: all 900ms ease;
+}
+
+.my-slider {
+  margin: 20px;
 }
 
 .portfolio {
