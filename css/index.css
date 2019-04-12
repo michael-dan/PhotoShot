@@ -34,10 +34,6 @@ div#navbarNav.navbar-collapse.collapse {
     color: #ffffff;
 }
 
-div#navbarNav.navbar-collapse.collapse.show {
-    border-top: 1px solid #ffffff;
-}
-
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
@@ -226,7 +222,7 @@ section h3 {
 
 input.button {
     height: 50px;
-    width: 25%;
+    width: 150px;
     text-transform: uppercase;
     padding: 20px 20px;
     border-radius: 2px;
@@ -324,9 +320,7 @@ button.close span {
 
     .photo-of-us img {
     display: block;
-    max-width: fit-content;
-    height: fit-content;
-    margin: auto;
+    width: 100%
     }
     h5 {
     font-size: 1.5rem;
@@ -334,3 +328,16 @@ button.close span {
     }
 }
 
+@media (max-width: 680px) {
+    .portfolio .block {
+    width: 44%;
+    margin: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio .block {
+    width: 98%;
+    margin: 2%;
+    }
+}
